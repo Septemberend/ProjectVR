@@ -1,15 +1,56 @@
 fileFormatVersion: 2
-guid: 370c87d3114b76445ad99bbce3b759de
-timeCreated: 1488745763
+guid: cabbcec4b986b4b47a3502e3a053dac2
+timeCreated: 1489333650
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cube.025
+    100000: Cube.024
+    100002: joint1
+    100004: joint11
+    100006: joint12
+    100008: joint13
+    100010: joint14
+    100012: joint15
+    100014: joint16
+    100016: joint17
+    100018: joint18
+    100020: joint18 1
+    100022: joint2
+    100024: joint21
+    100026: joint3
+    100028: joint4
+    100030: joint5
+    100032: joint6
+    100034: joint6 1
+    100036: joint7
+    100038: joint7 1
+    100040: //RootNode
+    400000: Cube.024
+    400002: joint1
+    400004: joint11
+    400006: joint12
+    400008: joint13
+    400010: joint14
+    400012: joint15
+    400014: joint16
+    400016: joint17
+    400018: joint18
+    400020: joint18 1
+    400022: joint2
+    400024: joint21
+    400026: joint3
+    400028: joint4
+    400030: joint5
+    400032: joint6
+    400034: joint6 1
+    400036: joint7
+    400038: joint7 1
+    400040: //RootNode
+    4300000: Cube.024
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cube.024
   materials:
     importMaterials: 1
     materialName: 0
@@ -30,7 +71,77 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.024
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint5
+        weight: 1
+      - path: joint1/joint2/joint5/joint6 1
+        weight: 1
+      - path: joint1/joint2/joint5/joint6 1/joint7 1
+        weight: 1
+      - path: joint1/joint2/joint11
+        weight: 1
+      - path: joint1/joint2/joint11/joint6
+        weight: 1
+      - path: joint1/joint2/joint11/joint6/joint7
+        weight: 1
+      - path: joint1/joint12
+        weight: 1
+      - path: joint1/joint12/joint13
+        weight: 1
+      - path: joint1/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint21
+        weight: 1
+      - path: joint1/joint21/joint18 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -50,8 +161,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
@@ -72,7 +183,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
